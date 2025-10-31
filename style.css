@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #4371de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #82d3fb;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 8px 0;
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size: 13px;
+  margin: 6px 0 16px;
+}
+
+.info, .skills {
+  text-align: left;
+  font-size: 13px;
+  color: #333;
+}
+
+.info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.skills-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.skills-buttons button {
+  background: #949292;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 13px;
+}
+
+/* ✨ Efek popup animasi saat hover */
+.skills-buttons button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background: #007bff;
+  color: rgb(70, 64, 64);
+}
